@@ -16,7 +16,8 @@ async function getWeather() {
         console.log(result);
     } catch (error) {
         console.error(error);
+
     }
 }
-
+// END
 getWeather();
