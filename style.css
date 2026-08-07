@@ -39,6 +39,9 @@ height: 100dvh;
 }
 
 /* INPUT CONTATINER */
+.input-container{
+position:relative ;
+}
 .city-input{
     width: 100%;
     padding: 10px 16px;
@@ -48,6 +51,7 @@ height: 100dvh;
  outline: none;
  font-weight: 500;
  transition: 0.25s border;
+ padding-right: 45px;
 }
 .city-input::placeholder{
     color: rgb(255, 255, 255,0.75);
@@ -56,8 +60,15 @@ height: 100dvh;
     border: 3px solid rgb(0, 0, 0,0.15);
 }
 .search-btn{
-position: absolute;
-
+    position: absolute;
+    top: 50%;
+    right: 16px;
+transform: translateY(-50%);
+background: none;
+border: none;
+display: flex;
+cursor: pointer;
 }
+
 
 /* END INPUT CONTATINER */
