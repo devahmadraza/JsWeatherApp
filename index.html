@@ -1,26 +1,60 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Weather App</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
-  </head>
-  <body>
-    <main class="main-container">
-<header class="input-container">
-<input type="text" class="city-input" placeholder="Search City">
-<button class="search-btn">
-<span class="material-symbols-outlined">
-search
-</span>
-</button>
-</header>
 
-    </main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=" />
+  
+  <!-- <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" /> -->
+</head>
 
-   
-    <script src="./script.js"></script>
-  </body>
+<body>
+  <main class="main-container">
+    <header class="input-container">
+      <input type="text" class="city-input" placeholder="Search City">
+      <button class="search-btn">
+        <span class="material-symbols-outlined">
+          search
+        </span>
+      </button>
+    </header>
+    <section class="weather-info">
+      <div class="location-data-container">
+        <div class="location">
+          <span class="material-symbols-outlined">
+            search
+          </span>
+          <h4 class="country-text">Jakarta</h4>
+        </div>
+        <h5 class="current-data-text regular-text"> Wed , 07 Aug</h5>
+      </div>
+
+
+      <div class="weather-summery-container">
+        <img src="./assets/clouds-removebg-preview.png" alt="">
+
+        <div class="weather-summery-info">
+          <h1 class="temp-text">29 ℃</h1>
+          <h3 class="condition-txt regular-text">Clouds</h3>
+        </div>
+      </div>
+      <div class="weather-summery-container">
+        <div class="container-item">
+          <span class="material-symbols-outlined">
+            water_drop
+          </span>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
